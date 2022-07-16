@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(25, 61, 92);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+.todo-button{
+  background-color: rgb(163, 49, 163);
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+.todo-button:hover{
+  opacity: 0.7;
+}
+.list-wrapper h1{
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.todo-input{
+  padding: 10px 20px;
+  border: none;
+
+}
+.todo-input:focus{
+  outline: none;
+}
+.todo-button{
+  padding: 10px 20px;
+  border: none;
+}
+::placeholder{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.todo-item-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 3px;
+}
+.todo-item-container:hover{
+  background-color: rgb(35, 78, 108);
+}
+
+.todo-text{
+color: white;
+font-family: 'Roboto', sans-serif;
+}
+.completed{
+  text-decoration: line-through;
+}
+.remove-button{
+  background-color: rgb(244, 16, 16);
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 20%;
+  padding: 3px;
+  transition: all 0.5s ease;
+}
+.remove-button:hover{
+  opacity: 0.7;
+  cursor: pointer;
+}
+.todo-form{
+  margin-bottom: 10px;
+}
